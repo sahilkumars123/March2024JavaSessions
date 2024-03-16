@@ -34,7 +34,7 @@ public class DataTypesConcept {
 		//range = -128 to 127
 		
 		byte a = 20;
-		byte b = 124;
+		byte b = 127;
 		//b = 20;
 		System.out.println(b);
 		
@@ -77,7 +77,7 @@ public class DataTypesConcept {
 		// 8*8 = 64 bits
 		//range: after . can take upto 15 digits
 
-		double d = 45.67;
+		double d = 45.6767896;
 		
 		
 		float buildVersion = 1.5f;
@@ -99,7 +99,7 @@ public class DataTypesConcept {
 	
 	char fg = '9'; //49
  	
-	System.out.println(gh);
+	System.out.println(gh); //a
 	
 	System.out.println(gh + hj); //97+98 = 195
 	

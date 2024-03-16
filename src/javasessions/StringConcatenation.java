@@ -128,9 +128,9 @@ public class StringConcatenation {
 		//byte, short, int , long
 		
 		
-//		byte f1 = 120;
-//		byte f2 = 20;
-//		int f3 = f1+f2;
+		byte f1 = 30;
+		byte f2 = 20;
+		int f3 = f1+f2;
 		
 		//-32768 to 32767
 		
@@ -155,15 +155,7 @@ public class StringConcatenation {
 		
 		int u = 0765676543;
 		System.out.println(u);
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
