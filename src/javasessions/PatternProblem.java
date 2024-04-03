@@ -333,38 +333,82 @@ public class PatternProblem {
 //			System.out.println();
 //		}
 		
-		int n=5;
+//		int n=5;
+//		for(int row=0; row<n; row+=1) {
+//			//stars
+//			for(int col=0; col<n-row; col=col+1) {
+//					System.out.print("*");
+//			}
+//			//spaces
+//			for(int col=0; col<2*row+1; col=col+1) {
+//				System.out.print(" ");
+//			}
+//			//stars
+//			for(int col=0; col<n-row; col=col+1) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}	
+//	
+//	for(int row=0; row<n; row+=1) {
+//		//stars
+//		for(int col=0; col<row+1; col=col+1) {
+//				System.out.print("*");
+//		}
+//		//spaces
+//		for(int col=0; col<2*n-2*row-1; col=col+1) {
+//			System.out.print(" ");
+//		}
+//		//stars
+//		for(int col=0; col<row+1; col=col+1) {
+//			System.out.print("*");
+//		}
+//		System.out.println();
+//	}	
+		
+		//numeric hallow half pyramid
+//		int n=5;
+//		for(int row=0; row<n; row=row+1) {
+//			for(int col=0; col<row+1; col=col+1) {
+//				if(col == 0 || col == row || row == n-1) {
+//				System.out.print(col+1+" ");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+		
+		
+//		int n=5;
+//		for(int row=0; row<n; row=row+1) {
+//			for(int col=row+1; col<=n; col=col+1) {
+//				if(col == row+1 || col == n || row ==0 )
+//				{
+//				System.out.print(col);
+//				}
+//				else
+//				{
+//					System.out.print(" ");	
+//				}
+//			}
+//			System.out.println();
+//		}
+		
+		
+		int n=4;
+		
 		for(int row=0; row<n; row+=1) {
-			//stars
-			for(int col=0; col<n-row; col=col+1) {
-					System.out.print("*");
-			}
-			//spaces
-			for(int col=0; col<2*row+1; col=col+1) {
+			for(int col=0; col<n-row-1; col+=1) {
 				System.out.print(" ");
 			}
-			//stars
-			for(int col=0; col<n-row; col=col+1) {
-				System.out.print("*");
+			
+			for(int col=0; col<row+1; col+=1) {
+				System.out.print("* ");
 			}
 			System.out.println();
-		}	
-	
-	for(int row=0; row<n; row+=1) {
-		//stars
-		for(int col=0; col<row+1; col=col+1) {
-				System.out.print("*");
 		}
-		//spaces
-		for(int col=0; col<2*n-2*row-1; col=col+1) {
-			System.out.print(" ");
-		}
-		//stars
-		for(int col=0; col<row+1; col=col+1) {
-			System.out.print("*");
-		}
-		System.out.println();
-	}	
 }
 
 }

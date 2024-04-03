@@ -48,15 +48,25 @@ public class ArrayConcept {
 		
 		//String array
 		
-		String[] browsers = new String[4];
-		browsers[0] = "chrome";
-		browsers[1] = "firefox";
-		browsers[2] = "safari";
-		browsers[3] = "edge";
+//		String[] browsers = new String[4];
+//		browsers[0] = "chrome";
+//		browsers[1] = "firefox";
+//		browsers[2] = "safari";
+//		browsers[3] = "edge";
+//		
+//		System.out.println(browsers[0]);
+//		System.out.println(browsers[2]);
+//		System.out.println(browsers[3]);
+		
+		
+		// Array Literals
+		
+		String[] browsers = {"chrome", "safari", "edge", "firefox"};
 		
 		System.out.println(browsers[0]);
 		System.out.println(browsers[2]);
 		System.out.println(browsers[3]);
+		
 		
 
 	}
