@@ -8,11 +8,39 @@ public class Employee {
 	String name;
 	int age;
 	double salary;
+	int a = 10;
+	
+	
+	final int calenderMonths = 12;
+	final int totalDaysInAWeek = 7;
+	
+	
+	public final void  test() {
+		
+		//local variables
+		int a =20;
+		
+		System.out.println(a); //20
+	}
+	
+	 
+	
+	public void showTest() {
+		System.out.println(a);
+	}
 	
 
 	public static void main(String[] args) {
 		
 		Employee emp = new Employee();
+		
+		
+		emp.calenderMonths = 10;
+		
+		emp.totalDaysInAWeek = 6;
+		
+		
+		System.out.println(emp.a); 
 		
 		//Employee - class name
 		//emp - obj ref name
@@ -37,9 +65,6 @@ public class Employee {
 		System.out.println(emp.name);
 		System.out.println(emp.age);
 		System.out.println(emp.salary);
-		
-	
-
 	}
 
 }
