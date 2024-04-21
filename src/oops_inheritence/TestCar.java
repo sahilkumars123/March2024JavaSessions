@@ -9,6 +9,9 @@ public class TestCar {
 		c.stop();
 		c.refeul();
 		c.start(); //Car - start
+		Car.testing();
+		c.power();
+		c.CarPublicTesting();
 	
 		
 		
@@ -21,6 +24,10 @@ public class TestCar {
 		b.stop(); //inherited method
 		b.refeul(); //inherited method
 		b.start(); //BMW-- start //overridden method
+		BMW.testing();
+		b.power();
+		b.CarPublicTesting();
+		
 		
 		
 		System.out.println("--------------------------");
@@ -54,17 +61,17 @@ public class TestCar {
 		//parent cannot call child individual methods
 		//c1.autoparking(); -- compile time error
 		
-		
+		System.out.println("---------------------------");
 		
 		Vehicle vh = new BMW();
 		
-		vh.engine();	
+		vh.engine(); 
 		
 		
 		System.out.println("--------------------------");
 		
 		//Downcasting
-		BMW b1 = (BMW) new Car();
+		BMW b1 =  (BMW) new Car();
 		
 		//Exception in thread "main" java.lang.ClassCastException: class oops_inheritence.Car cannot be cast to class oops_inheritence.BMW (oops_inheritence.Car and oops_inheritence.BMW are in unnamed module of loader 'app')
 		//at oops_inheritence.TestCar.main(TestCar.java:61)
