@@ -1,12 +1,12 @@
 package oops_abstraction;
 
-public class FortisHospital implements USMedical, UKMedical, IndiaMedical {
+public class FortisHospital extends Training implements USMedical, UKMedical, IndiaMedical {
 
-	
+
 	//US Medical
 	@Override
 	public void physioServices() {
-		System.out.println("FH -- physioServices");	
+		System.out.println("FH -- physioServices");
 	}
 
 	@Override
@@ -17,11 +17,20 @@ public class FortisHospital implements USMedical, UKMedical, IndiaMedical {
 
 	@Override
 	public void ENTServices() {
-		System.out.println("FH -- ENTServices");
+		System.out.println("FH -- ENTServices");	
+	}
+	
+	@Override
+	public void test() {
+		// TODO Auto-generated method stub
 		
 	}
 	
-
+	@Override
+	public void test(int a) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	//UK Medical
 	@Override
@@ -65,6 +74,23 @@ public class FortisHospital implements USMedical, UKMedical, IndiaMedical {
 	public void medicalTraining() {
 		System.out.println("FH -- medicalTraining");
 	}
+
+	@Override
+	public void covidVaccination() {
+		System.out.println("FH--- Covidvacination");
+	}
+
+	
+	@Override
+	public void trainMedicalStudents() {
+		System.out.println("Training --- Fortis Hospital");
+	}
+
+	@Override
+	public void billing() {
+		System.out.println("FH -- medical billing");
+	}
+
 	
 
 }
