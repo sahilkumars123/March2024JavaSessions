@@ -9,5 +9,6 @@ public interface IndiaMedical {
 	public void gynoServices();
 	
 	public void emergencyServices();
+	
 
 }
